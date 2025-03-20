@@ -17,6 +17,13 @@ public class Main {
         System.out.println(r1.getTopLeft());
         System.out.println(r1.getTopLeft().xCoord);
         System.out.println(r1.getTopLeft().yCoord);
+        System.out.println(r1.area());
+        System.out.println(r1.perimeter());
+
+        Circle c1 = new Circle(new Point(3,4),5);
+        System.out.println(c1.getRadius());
+        c1.setRadius(-21);
+        System.out.println(c1.getRadius());
 
 
     }
